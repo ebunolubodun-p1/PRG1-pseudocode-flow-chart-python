@@ -36,5 +36,7 @@ print(f"{chill_songs} chill songs ({(chill_songs/total_songs)*100:.1f}%)")
 
 if happy_songs > sad_songs:
     print("Overall mood: Upbeat! 😊")
+elif sad_songs > happy_songs:
+    print("Real sad...")
 else:
     print("Overall mood: Contemplative 🤔")
