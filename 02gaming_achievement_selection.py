@@ -15,7 +15,7 @@ elif time_played_hours >= 20:
 elif player_score >= 5000:
     achievement = "Rising Star"
 else:
-    achievement = "Newcomer"
+    achievement = "Newcomerr"
 
 # Output
 print(f"\nCongratulations! You've earned: {achievement}")
